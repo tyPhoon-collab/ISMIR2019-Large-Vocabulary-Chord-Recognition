@@ -7,7 +7,6 @@ services:
     volumes:
       - .:/app
       - ~/.cache/huggingface:/root/.cache/huggingface
-      # 一時的に追加
       - ../out:/out
       - ../data:/data
     working_dir: /app
